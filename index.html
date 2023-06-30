@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tone.js Example</title>
+    <!-- Include Tone.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.21/Tone.js"></script>
+</head>
+<body>
+<script>
+    // Create a new synthesizer
+    const synth = new Tone.Synth().toDestination();
+
+    // Play the C4 tone
+    synth.triggerAttackRelease('C4', '4n');
+</script>
+</body>
+</html>
